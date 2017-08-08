@@ -199,8 +199,7 @@ class ViewController: UIViewController, AVCaptureMetadataOutputObjectsDelegate, 
     func found(code: String)
     {
         var enteredURL = code
-        //let url = NSURL(string: enteredURL)
-        //let uurl = URL(string: code)
+        
         if(verifyUrl(urlString: code) == true)
         {
             let url = NSURL(string: enteredURL)
